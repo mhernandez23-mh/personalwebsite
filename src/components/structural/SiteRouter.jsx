@@ -7,7 +7,7 @@ function SiteRouter(){
     return <BrowserRouter>
         <Routes>
             <Route path="/" element={<Homepage />}>
-                <Route path="/Projects" element={<Projects/>}></Route>
+                <Route path="Projects" element={<Projects/>}></Route>
             </Route>
         </Routes>
         </BrowserRouter>
